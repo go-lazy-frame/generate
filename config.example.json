@@ -27,7 +27,7 @@
     // 需要忽略的表，支持 * 匹配
     "ignoreTables": ["rbac_*"],
     // 代码生成器的目录路径（保持默认即可，无需调整）
-    "homeDir": "go-lazy-frame/gen",
+    "homeDir": "go-lazy-frame-generate",
     // 以下为配置应用项目的代码路径，目录起点为go-lazy-frame框架的同级父目录
     // 项目 router 路由定义的源码位置，为空则忽略自动注入路由
     "routerDefine": "sand-server/internal/router/router.go",

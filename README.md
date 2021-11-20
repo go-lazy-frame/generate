@@ -1,4 +1,4 @@
-# 项目 Go 代码自动生成
+# go-lazy-frame 代码自动生成
 
 1. 复制 config.example.json 重命名为 config.json
 2. 编辑 config.json 配置
@@ -26,9 +26,9 @@
 
 - 也可指定环境变量：`config.file.path`，指定加载其他路径的配置
 
-## 新项目创建操作：`./gen.linux new`
-
-## 删除项目操作：`./gen.linux new`
+## TODO
+- [ ] 新项目创建操作：`./gen.linux new`
+- [ ] 删除项目操作：`./gen.linux new`
 
 
 
