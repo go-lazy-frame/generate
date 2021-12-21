@@ -33,8 +33,8 @@
 - 也可指定环境变量：`config.file.path`，指定加载其他路径的配置
 
 ## TODO
-- [ ] 新项目创建操作：`./gen.linux new`
-- [ ] 删除项目操作：`./gen.linux new`
+- [x] 新项目创建操作：`./gen.linux new`
+- [ ] 删除项目操作：`./gen.linux del`
 
 
 
