@@ -15,9 +15,8 @@
    
    以下文档，将以 linux 平台为例。
 4. 操作说明：
-   - `./gen.linux gen`：代码生成操作 
-   - `./gen.linux new`：新项目创建操作 
-   - `./gen.linux del`：删除项目操作
+   - `./gen.linux gen`：代码生成操作
+   - `./gen.linux new`：新项目创建操作
 
 ## 代码生成操作：`./gen.linux gen`
 
@@ -32,9 +31,6 @@
 
 - 也可指定环境变量：`config.file.path`，指定加载其他路径的配置
 
-## TODO
-- [x] 新项目创建操作：`./gen.linux new`
-- [ ] 删除项目操作：`./gen.linux del`
 
 
 
