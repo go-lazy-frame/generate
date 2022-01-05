@@ -28,19 +28,31 @@
     "ignoreTables": ["rbac_*"],
     // 代码生成器的目录路径（保持默认即可，无需调整）
     "homeDir": "go-lazy-frame-generate",
-    // 以下为配置应用项目的代码路径，目录起点为go-lazy-frame框架的同级父目录
+    // 项目的模块名
+    "projectModName": "sand-server",
+    // 以下为配置应用项目的代码路径，目录起点为代码生成工具的同级父目录
     // 项目 router 路由定义的源码位置，为空则忽略自动注入路由
     "routerDefine": "sand-server/internal/router/router.go",
     // 实体代码包路径（根据要生成代码的具体应用作相关调整即可）
     "modelDir": "sand-server/internal/model",
+    // 实体包名（一般无需调整）
+    "modelPkg": "${projectModName}/internal/model",
     // 服务代码包路径（根据要生成代码的具体应用作相关调整即可）
     "serviceDir": "sand-server/internal/service",
+    // 服务包名（一般无需调整）
+    "servicePkg": "${projectModName}/internal/service",
     // 控制器代码包路径（根据要生成代码的具体应用作相关调整即可）
     "controllerDir": "sand-server/internal/controller",
-    // 响应值代码包路径（根据要生成代码的具体应用作相关调整即可）
+    // 控制器包名（一般无需调整）
+    "controllerPkg": "${projectModName}/internal/controller",
+    // 响应值vo代码包路径（根据要生成代码的具体应用作相关调整即可）
     "voDir": "sand-server/internal/vo",
-    // 请求数据定义代码包路径（根据要生成代码的具体应用作相关调整即可）
+    // 响应值vo包名（一般无需调整）
+    "voPkg": "${projectModName}/internal/vo",
+    // 请求数据dto定义代码包路径（根据要生成代码的具体应用作相关调整即可）
     "dtoDir": "sand-server/internal/dto",
+    // 请求数据dto包名（一般无需调整）
+    "dtoPkg": "${projectModName}/internal/dto",
     // Controller 控制器方法自定义的参数接口文档描述，如统一的 header 规范等
     "controllerCustomerParamApiDoc": [
       "@Param token header string true \"登陆成功后的授权 Token，后续的所有接口header，都要带上 token\""
